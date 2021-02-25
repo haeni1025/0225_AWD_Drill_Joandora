@@ -23,43 +23,43 @@ div#gallery {border: 1px solid #000;}*/
 
 /* div#wrap 시작 */
 div#wrap {
-    width: 336px;
+    width: 330px;
+    padding: 0 10px;
     margin: 0 auto;
 
 }
 /* div#wrap 끝 */
 
 /* header#header 시작 */
+header#header {
+    margin-bottom: 20px;
+}
     /* div#headerLogo 시작 */
+div##headerLogo {
+    width: 100%;
+}
+
 #headerLogo>h1 {
     color: #fffe00;
-    font-size: 50px;
+    font-size: 46px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    width: 320px;
-    height: 80px;
-    background-color: #000;
-    line-height: 80px;
+    padding: 8px;
+    background-color: #071f1f;
+    margin-bottom: 10px;
 }
     /* div#headerLogo 끝 */
-
-    /* nav#gnb 시작 */
-nav#gnb {
-    padding: 10px;
-    text-align: center;
-    background-color: #fff;
-}
-nav#gnb ul>li {
-    padding: 5px;
-}
 nav#gnb a {
-    color: #8d69a0;
-    width: 280px;
-    height: 40px;
-    line-height: 40px;
-    border: 1px solid #c2adce;
-    border-radius: 10px;
-    display: inline-block;
+    color: #69497b;
+    width: 90%;
+    height: 42px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 42px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    margin: 5px auto;
+    display: block;
 }
     /* nav#gnb 끝 */
 
@@ -74,7 +74,7 @@ main#main div#intro h2 {
     padding: 10px;
 }
 main#main div#intro p#introHashTag {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     padding: 8px;
 }
@@ -85,9 +85,11 @@ main#main div#intro p#introHashTag~p {
 
     /* div#gallery 시작 */
 div#gallery {
-    width: 320px;
-    padding: 20px 0 0 0;
     text-align: center;
+    padding: 4px;
+}
+div#gallery img {
+    width: 260px;
 }
     /* div#gallery 끝 */
 
@@ -96,12 +98,12 @@ div#gallery {
 /* footer#footer 시작 */
 footer#footer {
     text-align: center;
-    padding: 14px;
-    margin-bottom: 20px;
+    padding: 6px;
     background-color: #071f1f;
 }
 #footer>address, #footer>div#copyright {
-        color: #fff;
+    color: #fff;
+    font-size: 15px;
 }
 #footer>address {
     font-style: normal;
